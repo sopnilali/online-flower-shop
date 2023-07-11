@@ -184,13 +184,13 @@
 .saleup-items-title{
     font-size: 30px;
     padding-bottom: 20px;
-    font-weight: 800;
+    font-weight: bolder;
 }
 .saleup-items-descriptipn{
     font-family: 'Open Sans', sans-serif;
     color: rgba(39, 39, 39, 0.60);
-    padding-bottom: 20px;
-    font-size: 15px;
+    padding-bottom: 30px;
+    font-size: 14px;
 }
 .saleup-left-bar{
     width: 300px;
@@ -202,8 +202,8 @@
     display: inline-flex;
     font-size: 15px;
     display: inline-flex;
-    padding: 14px 30px;
-    font-weight: 400;
+    padding: 16px 35px;
+    font-weight: 300;
 }
 /* instagram main container */
 
@@ -224,6 +224,7 @@
 }
 .insta-header{
     padding-top: 80px;
+    padding-bottom: 10px;
     display: block;
     width: 500px;
     text-align: center;
