@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
 }
+/* primary section */
 .btn-primary{
     padding: 20px 30px;
     border-radius: 8px;
@@ -12,11 +13,119 @@
     border: 0;
     font-size: 15px;
 }
+/* banner main container section */
+.banner-main-container{
+    width: 100vw;
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 525px;
+    background: rgba(229, 84, 115, 0.10);
+    padding:0px 5px 50px;
+    padding-top: 100px;
+    gap: 50px;
+}
+.banner-left{
+    padding-right: 80px;
+    width: 600px;
+}
+.banner-left-tile{
+    font-family: 'Open Sans', sans-serif;
+    color: #272727;
+    font-size: 50px;
+    font-weight: 800;
+    line-height: normal;
+}
+.banner-left-description{
+    margin-top: 25px ;
+    margin-bottom: 30px;
+    color: rgba(39, 39, 39, 0.60);
+    line-height: 25px;
+    font-weight: 400;
+}
+.banner-btn{
+    font-weight: 400;
+    padding: 15px 30px;
+}
+.flower-pic{
+    width: 500px;
+
+}
+/* featured-container-start */
+
+.featured-box-container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 495px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.featured-header{
+    text-align: center;
+}
+.featured-header h2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 20px;
+}
+.featured-header p{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(39, 39, 39, 0.60);
+}
+.featured-box{
+    text-align: center;
+    width: 250px;
+    height: 295px;
+    padding: 50px;
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    /* border:  3px solid red; */
+}
+.feature-box-2{
+    background: rgba(5, 151, 160, 0.15);
+}
+.feature-box-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+.featured-pic{
+    width: 100%;
+}
+.featured-pic-2{
+    width: 100%;
+    margin-top: 60px;
+}
+.featured-pic-3{
+    width: 92%;
+}
+.feature-botton{
+    font-size: 20px;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+.feature-botton-2{
+    font-size: 20px;
+    margin-top: 55px;
+    text-decoration: underline;
+}
+
+/* Get The Latest Deals */
 .deal-main-container{
+    height: 350px;
+    padding-top:80px;
+    padding-bottom:80px;
+    margin: auto;
+}
+.deal-container{
     font-family: 'Open Sans', sans-serif;
     width: 1200px;
     background-color: cadetblue;
-    height: 350px;
+    height: 374px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -57,4 +166,84 @@ input[type="email"]{
     font-size: 12px;
     background: #FFF;
     color: rgba(39, 39, 39, 0.60);
+}
+/* icon main container */
+.icon-main-container{
+    width: 1140px;
+    height: 250px;
+    padding-top:30px;
+    padding-bottom:40px;
+    margin: auto;
+}
+.icon-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    height: 220px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.icon-box{
+
+    text-align: center;
+}
+.icons-img{
+    width: 60px;
+    padding-bottom: 10px;
+}
+.icons-des{
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.80);
+    font-weight: 550;
+    line-height: 35px;
+}
+/* saleup main container section */
+
+.saleup-main-container{
+    width:100vw;
+    height: 450px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: auto;
+
+}
+.saleup-container{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 200px;
+    justify-content:center;
+    align-items: center;
+}
+.saleup-left-bar{
+    /* width: 800px; */
+}
+.saleup-items{
+    text-align: center;
+    padding-top: 40px;
+    width: 400px;
+    
+}
+.saleup-items-title{
+    font-size: px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.saleup-items-descriptipn{
+    color: rgba(39, 39, 39, 0.60);
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.saleup-left-bar{
+    width: 300px;
+}
+.saleup-flower-img{
+    width:225px;
+}
+.saleup-btn{
+    display: inline-flex;
+    font-size: 15px;
+    display: inline-flex;
+    padding: 14px 30px;
+    font-weight: 400;
 }
