@@ -186,7 +186,7 @@
     padding-bottom: 20px;
     font-weight: bolder;
 }
-.saleup-items-descriptipn{
+.saleup-items-description{
     font-family: 'Open Sans', sans-serif;
     color: rgba(39, 39, 39, 0.60);
     padding-bottom: 30px;
@@ -348,6 +348,7 @@ input[type="email"]{
     /* background-color: aqua; */
 }
 .footer-header-title{
+    color: white;
     padding-bottom: 10px;
     font-size: 50px;
 }
