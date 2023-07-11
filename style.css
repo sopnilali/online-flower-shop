@@ -1,6 +1,7 @@
 *{
     padding: 0;
     margin: 0;
+    font-family: 'Lato', sans-serif;
 }
 /* primary section */
 .btn-primary{
@@ -31,18 +32,20 @@
     width: 600px;
 }
 .banner-left-tile{
+    font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
     color: #272727;
     font-size: 50px;
-    font-weight: 800;
-    line-height: normal;
+    font-weight: bolder;
 }
 .banner-left-description{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     margin-top: 25px ;
     margin-bottom: 30px;
     color: rgba(39, 39, 39, 0.60);
     line-height: 25px;
-    font-weight: 400;
+    /* font-weight: 200; */
 }
 .banner-btn{
     font-weight: 400;
@@ -53,7 +56,10 @@
 
 }
 /* featured-container-start */
-
+.featured-main-container{
+    height: 655px;
+    padding-top: 120px;
+}
 .featured-box-container{
     width: 1200px;
     display: flex;
@@ -62,6 +68,7 @@
     height: 495px;
     margin: auto;
     margin-bottom: 50px;
+    /* padding-top: -50px; */
 }
 .featured-header{
     text-align: center;
@@ -74,7 +81,9 @@
     margin-bottom: 20px;
 }
 .featured-header p{
-    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
     font-weight: 400;
     color: rgba(39, 39, 39, 0.60);
 }
@@ -113,16 +122,134 @@
     margin-top: 55px;
     text-decoration: underline;
 }
+/* icon main container */
+.icon-main-container{
+    width: 1145px;
+    height: 250px;
+    padding-top:30px;
+    padding-bottom:40px;
+    margin: auto;
+}
+.icon-container{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-right: 20px;
+    height: 220px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+}
+.icon-box{
+    text-align: center;
+}
+.icons-img{
+    width: 60px;
+    padding-bottom: 10px;
+}
+.icons-des{
+    font-size: 15px;
+    color: rgba(39, 39, 39, 0.80);
+    font-weight:550;
+    /* line-height: 35px; */
+
+}
+/* saleup main container section */
+
+.saleup-main-container{
+
+    width:100vw;
+    height: 450px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: auto;
+
+}
+.saleup-container{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    display: flex;
+    gap: 200px;
+    justify-content:center;
+    align-items: center;
+}
+.saleup-left-bar{
+    /* width: 800px; */
+}
+.saleup-items{
+    text-align: center;
+    padding-top: 40px;
+    width: 430px;
+    
+}
+.saleup-items-title{
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 800;
+}
+.saleup-items-descriptipn{
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(39, 39, 39, 0.60);
+    padding-bottom: 20px;
+    font-size: 15px;
+}
+.saleup-left-bar{
+    width: 300px;
+}
+.saleup-flower-img{
+    width:225px;
+}
+.saleup-btn{
+    display: inline-flex;
+    font-size: 15px;
+    display: inline-flex;
+    padding: 14px 30px;
+    font-weight: 400;
+}
+/* instagram main container */
+
+.insta-main-container{
+    width: 1200px;
+    height: 520px;
+    margin: auto;
+}
+.insta-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 40px;
+}
+.insta-image{
+    width: 285px;
+}
+.insta-header{
+    padding-top: 80px;
+    display: block;
+    width: 500px;
+    text-align: center;
+    margin: auto;
+}
+.insta-title{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.insta-description{
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 10px;
+    color: rgba(39, 39, 39, 0.60);
+    line-height:20px;
+}
 
 /* Get The Latest Deals */
 .deal-main-container{
     height: 350px;
-    padding-top:80px;
-    padding-bottom:80px;
+    padding-top:120px;
+    padding-bottom:120px;
     margin: auto;
 }
 .deal-container{
-    font-family: 'Open Sans', sans-serif;
     width: 1200px;
     background-color: cadetblue;
     height: 374px;
@@ -141,7 +268,8 @@
     font-size: 40px;
     font-weight: bold;
 }
-.deal-dscription{
+.deal-description{
+    font-family: 'Open Sans', sans-serif;
     color: rgba(39, 39, 39, 0.60);
     font-size: 15px;
     margin-top: 10px;
@@ -167,83 +295,67 @@ input[type="email"]{
     background: #FFF;
     color: rgba(39, 39, 39, 0.60);
 }
-/* icon main container */
-.icon-main-container{
-    width: 1140px;
-    height: 250px;
-    padding-top:30px;
-    padding-bottom:40px;
-    margin: auto;
+/* customer feedback section */
+.feedback-main-container{
+    font-family: 'Open Sans', sans-serif;
+    height: 400px;
+    background-color: #f4f7fa;
+    margin-bottom: 100px;
 }
-.icon-container{
+.feedback-container{
+    height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 60px;
-    height: 220px;
-    border-radius: 8px;
-    background: rgba(39, 39, 39, 0.05);
 }
-.icon-box{
-
+.feedback-item{
     text-align: center;
 }
-.icons-img{
-    width: 60px;
-    padding-bottom: 10px;
+.feedback-title{
+    padding-bottom: 20px;
+    font-size: 30px;
 }
-.icons-des{
-    font-size: 15px;
-    color: rgba(39, 39, 39, 0.80);
-    font-weight: 550;
-    line-height: 35px;
+.feedback-description{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
 }
-/* saleup main container section */
+.feedback-description-footer{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 20px;
+}
 
-.saleup-main-container{
-    width:100vw;
-    height: 450px;
-    background: rgba(229, 84, 115, 0.05);
-    margin: auto;
+/* footer main container section */
 
+.footer-main-container{
+    height: 400px;
+    background-color: black;
+    color: white;
 }
-.saleup-container{
-    padding-top: 80px;
-    padding-bottom: 40px;
+.footer-container{
+    height: 400px;
     display: flex;
-    gap: 200px;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
 }
-.saleup-left-bar{
-    /* width: 800px; */
-}
-.saleup-items{
+.footer-item{
+    width:500px;
+    height: 200px;
+    line-height: 1.5;
     text-align: center;
-    padding-top: 40px;
-    width: 400px;
-    
+    /* background-color: aqua; */
 }
-.saleup-items-title{
-    font-size: px;
+.footer-header-title{
+    padding-bottom: 10px;
+    font-size: 50px;
+}
+.footer-header-description{
+    font-family: 'Open Sans', sans-serif;
     padding-bottom: 20px;
-    font-weight: 800;
-}
-.saleup-items-descriptipn{
-    color: rgba(39, 39, 39, 0.60);
-    padding-bottom: 20px;
-    font-size: 15px;
-}
-.saleup-left-bar{
-    width: 300px;
-}
-.saleup-flower-img{
-    width:225px;
-}
-.saleup-btn{
-    display: inline-flex;
-    font-size: 15px;
-    display: inline-flex;
-    padding: 14px 30px;
+    color: rgba(255, 255, 255, 0.90);
     font-weight: 400;
+}
+.footer-copyright{
+    color: rgba(255, 255, 255, 0.40);
 }
